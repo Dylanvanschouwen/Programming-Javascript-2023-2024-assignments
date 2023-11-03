@@ -9,7 +9,6 @@ let clickCount2 = 0;
 
 clickButton.addEventListener("click", () => {
     clickCount++;
-
     if (clickCount === 10) {
         clickCount = 0;
         clickCount2++
